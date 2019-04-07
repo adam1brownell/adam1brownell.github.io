@@ -3812,3 +3812,18 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.headshot {
+		height: calc(9em + 2px);
+		width: calc(9em + 2px);
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+	}
+
+	.headshot img {
+		display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
