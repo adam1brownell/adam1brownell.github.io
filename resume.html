@@ -1,0 +1,182 @@
+<! DOCTYPE html>
+<html>
+<head>
+    <link href = "resume.css" rel = "stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resume.js"></script>
+<title>Interactive Resume</title>
+</head>
+<body class = 'parallax'>
+<div id='resume'>
+  <div class='menu'>
+    <h1>Adam Brownell</h1>
+    <h5> [2423 Federal Ave, Los Angeles, CA 90064]  </h5>
+    <h5> (949) 350 0594 | adam1brownell@gmail.com </h5>
+    <ul>
+      <li id='data_click'> Data </li>
+      <li> || </li>
+      <li id='product_click'> Product </li>
+      <li> || </li>
+      <li id='research_click'> Research </li>
+    </ul>
+  </div>
+  <div id ='education'>
+    <h2> Education </h2>
+    <div class = 'research_nc'>
+    <table>
+      <tr>
+        <td><h4> University of California, Los Angeles </h4></td>
+        <td class = 'right_col'><h4> 2014 - 2018 <h4></td>
+      </tr>
+      <tr>
+        <td><h5>B.S.: Cognitive Science/Computation, minor in Digital Humanities </h5></td>
+    </table>
+    <p> Relevant Coursework: Machine Learning, Machine Learning in Brain Science,
+       Machine Learning in Bioinformatics, Research Statistics, Fundamentals of
+       Artificial Intelligence, Algorithms & Complexity, Behavioral Neuroscience,
+       Discrete Mathematics</p>
+    </div>
+  </div>
+  <div id = 'experience'>
+    <h2 id='playSpace'>Professional Experience</h2>
+
+<!-- Retina -->
+    <div class='data_nc'>
+    <table>
+      <tr>
+        <td><h4>Retina.ai</h4></td>
+        <td class= 'right_col'><h5> Santa Monica, CA </h5></td>
+      </tr>
+      <tr>
+        <td><h4><em>Data Scientist</em></h4></td>
+        <td class = 'right_col'><h5><em>July 2018 - Present</em></h5></td>
+      </tr>
+    </table>
+    <ul>
+      <li class='research_nc'>Researched stronger time-series models and sequence forecasting through
+        the use of recurrent nets (RNNs) and meta-learners</li>
+      <li>Produced email campaign success analytics in context of customer
+        lifetime value (LTV) to provide vital insights to clients</li>
+      <li>Presented LTV elasticity concerns in Pareto family probabilistic models
+        leading to improvements for both business intelligence and predictive power</li>
+      <li class='product_nc'>Led team in the development of data-driven Virtual Assistant for clients,
+         engineering the MVP locally before deployment to serverless framework for production</li>
+    </ul>
+  </div>
+
+<!-- Textpert -->
+    <div class='data_nc'>
+    <table>
+      <tr>
+        <td><h4>Textpert</h4></td>
+        <td class= 'right_col'><h5> Westwood, CA </h5></td>
+      </tr>
+      <tr>
+        <td><h4><em>Artificial Intelligence Engineer</em></h4></td>
+        <td class = 'right_col'><h5><em>Dec 2017 - June 2018</em></h5></td>
+      </tr>
+    </table>
+    <ul>
+      <li class='research_nc'>Conceptualized heat-map visualization for mid-layer output of
+        convolutional nets (CNNs) to  showcase model’s effectiveness and learnings
+         about emotion expression</li>
+      <li>Implemented machine learning techniques (confusion matrices, validation
+         sets, etc.) to previously implemented model to inform future architecture and hyperparameter decisions</li>
+      <li>Compiled and presented pre-VC acquisition report to inform business development</li>
+    </ul>
+  </div>
+
+<!-- BCGDV Data -->
+    <div class='data_nc'>
+      <table>
+        <tr>
+          <td><h4 class='product_nc'> BCG Digital Ventures </h4></td>
+          <td class = 'right_col'><h5> Manhattan Beach, CA</h5></td>
+        </tr>
+        <tr>
+          <td><h4><em>Data Scientist<em></h4></td>
+          <td class = 'right_col'><h5><em>July 2017 – September 2017</em> </h5></td>
+        </tr>
+      </table>
+      <ul style='margin-bottom:1px;'>
+        <li>Detected subtle emotions from phone calls for multiple Fortune-500
+          companies to better analyze over 100,000 daily customer service calls in
+           real-time </li>
+        <li>Independently developed data analysis, visualization, and prediction
+          pipeline leading up to important client meeting by utilizing various
+          Python/R modules such as numpy, pandas, matplotlib, keras, scikit-learn,
+           e1071, nnet, and glmnet</li>
+        <li class='product_nc'>Applied agile development over a 10-week innovation sprint in order to
+           produce the most effective machine learning models and preprocessing
+           technique</li>
+      </ul>
+    </div>
+
+<!-- BCGDV Product -->
+    <div class  = 'product_nc'>
+      <table style='margin-top: 0px;'>
+        <tr>
+          <td><h4><em>Product Manager Intern<em></h4></td>
+          <td class = 'right_col'><h5><em>July 2017 – September 2017</em> </h5></td>
+        </tr>
+      </table>
+      <ul>
+        <li>Created product vision for client's investments by researching/validating
+           product-market fit alongside outlining feature selection</li>
+        <li>Coordinated with design, engineer, and business analyst teams to test
+          product feasibility and mitigate risks through careful structuring of MVP
+           incubation plan and daily scrum meeting</li>
+        <li>Invited to present to client's executive board as a summer intern</li>
+      </ul>
+    </div>
+
+  <!-- CVL -->
+    <div class='research_nc'>
+    <table>
+      <tr>
+        <td><h4>Computational Vision and Learning (CVL) Labs</h4></td>
+        <td class= 'right_col'><h5> Westwood, CA </h5></td>
+      </tr>
+      <tr>
+        <td><h4><em>Research Assistant</em></h4></td>
+        <td class = 'right_col'><h5><em>Aug 2016 - July 2018</em></h5></td>
+      </tr>
+    </table>
+    <ul>
+      <li>Constructed predictive Brain-Computer Interface models built upon
+        classification algorithms found in tensorflow and scikit-learn</li>
+      <li>Scripted models of cognition by synthesizing Bayesian statistics and
+        intuitive physics and working closely with domain experts</li>
+      <li>Designed behavioral experiments using pybox2D and Matlab to
+        collect/analyze data for smarter cognitive models</li>
+    </ul>
+  </div>
+
+  <!-- CVL -->
+<div class='product_nc'>
+<table>
+  <tr>
+    <td><h4>Phoenix & Powell</h4></td>
+    <td class= 'right_col'><h5> Venice, CA </h5></td>
+  </tr>
+  <tr>
+    <td><h4><em>Lead Consultant</em></h4></td>
+    <td class = 'right_col'><h5><em>June 2017 - Aug 2017</em></h5></td>
+  </tr>
+</table>
+<ul>
+  <li>Led team of student consultants to address product strategy, market
+    analysis, and user research for client's product during project cycle</li>
+  <li>Worked intimately with LA-based start-up company and pushed MVP forward by
+     verifying critical assumptions</li>
+  <li>Independently developed novel framework for start-up consulting and
+    accelerated product roadmap results & promoted cohort cooperation.
+    Framework adopted by consultancy and used in future project cycles</li>
+</ul>
+</div>
+
+<h5 class='menu'> Back to <a href="index.html">adambrownell.com</a></h5>
+</div>
+</div>
+</body>
+</html>
