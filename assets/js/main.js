@@ -65,7 +65,6 @@
 		// Menu.
 			$('#menu')
 				.append('<a href="#menu" class="close"></a>')
-				.appendTo($body)
 				.panel({
 					delay: 500,
 					hideOnClick: true,
@@ -94,6 +93,44 @@
 				});
 
 			}
+
+			// Add parallax effect to CTA section
+			$('#cta').scrollex({
+				mode: 'middle',
+				delay: 200,
+				enter: function() {
+					$(this).addClass('visible');
+				},
+				leave: function() {
+					$(this).removeClass('visible');
+				}
+			});
+
+		// Parallax scrolling for all sections
+		$('.parallax-section').scrollex({
+			mode: 'middle',
+			delay: 200,
+			enter: function() {
+				$(this).addClass('visible');
+			},
+			leave: function() {
+				$(this).removeClass('visible');
+			}
+		});
+
+		// Smooth scrolling for navigation
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
 
 	});
 
