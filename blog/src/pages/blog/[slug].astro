@@ -1,0 +1,24 @@
+---
+import { getCollection, getEntryBySlug } from 'astro:content';
+import BlogPost from '../../layouts/BlogPost.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntryBySlug('blog', slug);
+
+if (!entry) {
+  throw new Error(`Post not found`);
+}
+
+const { Content, data: frontmatter } = await entry.render();
+---
+
+<BlogPost post={{ Content, frontmatter }} />
+
+
