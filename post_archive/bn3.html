@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod and further hacks by @arkadianriver, MIT license
+-->
+<html lang="en-us">
+
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139838466-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139838466-1');
+</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Behavioral Neuroscience III</title>
+  <meta name="description" content="How do Neurons Work?" />
+  <!--[if lte IE 8]><script src="/blog//js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/blog//images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/blog//images/favicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="http://example.com/blog//edu_bank/bnero-membrane-potential.html" />
+  <link rel="stylesheet" href="/blog//css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="/blog//css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="/blog//css/ie9.css" /><![endif]-->
+  <style>
+  #main > header {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/blog//images/edu_imgs/neuron.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/blog//images/edu_imgs/neuron.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/blog//images/edu_imgs/neuron.jpg");
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/blog//images/edu_imgs/neuron.jpg");
+  }
+  </style>
+  <!--[if lte IE 9]>
+  <style>
+  #main > header {
+    background-image: url("/blog//images/edu_imgs/neuron.jpg");
+  }
+  </style>
+  -->
+  <link rel="alternate" type="application/rss+xml" title="Brownell Blog" href="http://example.com/blog//feed.xml">
+</head>
+
+
+  <body>
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+<header id="header">
+  <h1><a href="/blog//index.html">Brownell Blog</a></h1>
+  <nav id="nav">
+    <ul>
+      <li class="special">
+        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="/blog//index.html#greeting">Home</a></li>
+            <li><a href="/blog//data/">Data Blog</a></li>
+            <li><a href="/blog//bank/">Knowledge Bank</a></li>
+            <li><a href="/blog//contact/">Contact</a></li>
+            <li><a href="/blog//feed.xml"
+                   class="icon fa-feed"> RSS Feed</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+      <article id="main">
+
+          <header>
+    <h2>Behavioral Neuroscience III</h2>
+    <p>How do Neurons Work?</p>
+  </header>
+  <ul class="breadcrumb">
+  <li><a href="/blog//index.html#greeting">Home</a></li>
+  <li style="text-transform: capitalize;"><a href="/blog//edu_bank">edu_bank</a></li>
+  <li>Behavioral Neuroscience III</li>
+</ul>
+
+
+
+        
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+>
+</script>
+
+
+  <section class="wrapper style5">
+    <div class="inner">
+      <span id="post-date">18 March 2019</span><hr
+        style="margin-top:3px;" />
+
+      <h2 id="membrane-potential-how-neurons-work"><u>Membrane Potential</u>: How Neurons Work</h2>
+
+<p>Neurons communicate by sending signals to each other called Action Potentials. To understand how action potentials work, we need to discuss few fundamental concepts of physics/chemistry</p>
+
+<h3 id="diffusion-of-ions">Diffusion of Ions</h3>
+
+<p><strong>Diffusion</strong> is the movement of a substance from high concentration to low concentration. Image food coloring being dropped into water—it slowly starts to spread out from area of high concentration (lots of food coloring) to areas with low concentration (no food coloring) until it is evenly distributed. When an <strong>ion</strong>, or charged particle, diffuses, something extra happens. As the charged particle spreads out to areas of low concentration, it starts to create a charge in these new areas. This new charge creates prevents new, similarly charged particles from entering. In a sense, it is diffusion for electricity/charge.</p>
+
+<p>For example, Sodium (Na+) has a positive charge. Imagine a high concentration of Na+ floating around a cell that has no Na+ inside it whatsoever (very low concentration). The moment that cell “allows” Na+ to enter, there is a HUGE rush of Na+ from the outside due to diffusion. As this flow occurs, the new positively-charged Na+ ions have given the cell an overall positive charge now. Remember: In electricity, similar charges repel each other. So, the positive charged cell starts to repel the Na+ outside the cell, and it gets harder and harder for new Na+ to rush inside. This is different than in the food coloring example, where diffusion will only stops once all areas have EQUAL concentrations—the charged particles make it so diffusion will stop prior to this point, leaving the cell with a slightly lower concentration of Na+ than the outside.</p>
+
+<p>Eventually the cell and outside Na+ reach a ceasefire, where the pressure from the charges is too strong and the difference in diffusion is too low for any Na+ to make it inside. To some up with fancier language: The <em>efflux</em> of Na+ due to positive voltage equals the <em>influx</em> of Na+ due to concentration gradient.</p>
+
+<p>This ceasefire, or when the pressure of Na+ inside the cell due to the positive charge equals the strength of the Na+ outside wanting to diffuse, is called the <strong>Equilibrium Potential</strong>, and it is a fundamental way that neuron communication works.</p>
+
+<h3 id="equilibrium-potential--relative-permeability">Equilibrium Potential &amp; Relative Permeability</h3>
+
+<p>At Equilibrium Potential, the cell has a charge from all the ions that flooded inside. You can calculate the Equilibrium Potential for each ion with the <strong>Nernst Equation</strong>:</p>
+
+<script type="math/tex; mode=display">E = 58mv*log(\frac{Concentration Outside}{Concentration Inside})</script>
+
+<p>*For the math inclined, you can see that if the concentration inside and outside was the same, the charge would be 0, because the log(1) = 0. But that is never the case due to the voltage within the cell*</p>
+
+<p>Equilibrium Potentials for different ions found in neurons:</p>
+<ul>
+  <li>Sodium (Na+) = +50mV</li>
+  <li>Potassium (K+) = -80mV</li>
+  <li>Chlorine (Cl-) = -80mV</li>
+  <li>Calcium (Ca++) = +134mV</li>
+</ul>
+
+<p>A neuron’s <strong>membrane potential</strong> is the equilibrium potential of the entire neuron taking into account all these ions’ individual equilibrium potentials. The <strong>resting potential</strong>, or membrane potential when the neuron is not firing, is about -70mV.</p>
+
+<p>It is important to know that neurons have a thick membrane called the Phospholipid Bilayer that prevents pretty much anything from getting inside. Only when special, chemical-specific gates are opened can any ions get inside and diffusion take place. The controlling of what materials enter/leave the cell is called <strong>Relative Permeability</strong>.</p>
+
+<p><strong>Sodium (Na+)</strong> is the most important compound when it comes to our neurons communicating—it is key to triggering action potentials. To get inside the cell, Na+ has to pass through <strong>Sodium Channels</strong>. These channels are <strong>voltage-gated</strong>, which means they only “turn on” when the neuron reaches a certain voltage level. This is crucial to understanding how neurons control the flow of Na+ into the axon.</p>
+
+<h3 id="action-potentials">Action Potentials</h3>
+
+<figure>
+  <img src="../images/edu_imgs/actionpotential.png" alt="Action Potential" style="width:700px;height:600px;" />
+</figure>
+<p><br /></p>
+
+<p>Prior to an action potential, a neuron is at resting potential. It then receives a signal from a nearby cell, which causes the cell to <strong>depolarize</strong>, or gain a positive charge, ever so slightly. This slight depolarization causes a tiny amount of voltage-gated sodium channels to open, which allows more Na+ ions inside, which causes the cell to depolarize even more. Neurons work on an <strong>All-or-None Activation</strong>, where the neuron either fully triggers an action potential, or doesn’t fire at all—there is not stronger or weaker neuron action potential. What causes a full action potential is if the depolarization from a nearby action potential pushes the cell above the Threshold. The <strong>Threshold</strong>, also called the <strong>Trigger Event</strong>, is the point at which as the cell becomes more depolarized, more sodium channels open, allowing more Na+ to enter, causing the cell to depolarize even further. This <strong>Domino Effect</strong> of depolarization-Sodium Channels-Na+ influx-depolarization pushes the membrane potential very quickly to the Na+ Equilibrium Potential of +50mV—Sodium overwhelms the neuron.</p>
+
+<p>Incoming signals come in two forms: EPSPs and IPSPs. <strong>Excitatory Post-synaptic Potentials (EPSPs)</strong> open sodium channels and depolarize the cell, causing “bumps” in the membrane potential. It takes several EPSPs to push the membrane potential over the threshold. This can be done through either <strong>Temporal Summation</strong>, or multiple EPSPs in rapid succession of each other, or <strong>Spatial Summation</strong>, multiple EPSPs from different neighboring neurons. <strong>Inhibitory Post-synaptic Potentials (IPSPs)</strong> open potassium or chlorine channels and hyperpolarize– to gain more negative charge. IPSPs make EPSPs and depolarizations less effective.</p>
+
+<h3 id="refractory-period">Refractory Period</h3>
+
+<p>After the peak of the action potential, the membrane potential begins to polarize again towards the resting potential. This is caused by several things:</p>
+
+<ul>
+  <li>After long periods of being active, sodium channels naturally start to get tired and turn off, restricting Na+ ability to depolarize the cell and lower the membrane potential.</li>
+  <li>As more sodium channels turn off due to inactivity and Na+ begins to leave the cell, even more sodium channels turn off due to the neuron no longer be depolarized enough for them to function</li>
+  <li><strong>Potassium channels</strong> are also activated by depolarization but are slower to open the sodium channels. This influx of K+ ions (which has an Equilibrium Potential of -80mV) continues to push the overall voltage down, causing even more sodium channels to close</li>
+</ul>
+
+<p>The combination of sodium channels closing and potassium channels opening/closing slower causes a huge crash in membrane potential, resulting in a voltage even lower than resting potential. The lower voltage, along with the “exhausted” sodium channels, makes it impossible for the neuron to fire again for a short period of 1 – 2ms. This is called the <strong>Refractory Period</strong>. After a short refractory period, the neuron returns to resting potential</p>
+
+<p>It is interesting to note natural toxins/poisons cause problems with sodium channels. Saxitoxin found in Pufferfish prevents sodium channels from opening up in the first place, and Batrachotoxin found in Dart Frogs prevents sodium channels from closing.</p>
+
+<p>An additional way that a neuron recovers from an action potential is the <strong>Sodium-Potassium Pump</strong>, where the neuron takes in more K+ ions and flushes out Na+ ions to return to resting potential quicker</p>
+
+<h3 id="conduction">Conduction</h3>
+
+<p>While we have seen how a neuron depolarizes and then repolarizes, we haven’t discussed how action potential travel to synapses to transmit a signal to other neurons.</p>
+
+<p>The rapid change in membrane potential creates and electrical charge. This charge then travels up the axon from the cell body to the synapses. This is done through <strong>conduction</strong>, in which the Na+ ions that rush in during an action potential depolarize the forward-neighboring patch of axon and cause an action potential to arise there as well. The entering Na+ fails to excite backward patches of the axon, and continues to push the electrical charge forward, because it is in a refractory state.</p>
+
+<p>We said previously that myelin helps signal fire quicker, and that is because it reduces the capacitance, or how much charge is required to change the membrane potential. By wrapping sections of axon in myelin fat, entire sections of axon can be depolarized with only a few Na+ ions. This makes depolarization require less ions, less energy (less ions to remove afterwards), and quicker depolarization. The un-myelinated sections of axons where ions diffuse into the neuron are called Nodes of Ranvier.</p>
+
+<h3 id="synapses--receptors">Synapses &amp; Receptors</h3>
+
+<p>When the action potential reaches the synaptic terminal at the end of the axon, it opens voltage-gated <strong>calcium (Ca++) channels</strong>. The entering Ca++ triggers the activation of <strong>synaptic vesicles</strong>, bubbles that are filled with thousands of neurotransmitters. These transmitters are then released into the synaptic cleft. As they cross the cleft and reach the neighboring neuron’s dendrites, it binds to nearby receptors, triggering either an EPSP or an IPSP. The neurotransmitters left in the synaptic cleft are cleared away by glia cells, reabsorbed by the synapse, or deteriorate in the synaptic cleft.</p>
+
+<p>There are two kinds of receptors. <strong>Ionotropic Receptors</strong> are both receptors and ion channels, and therefore result in a fast reaction to the neurotransmitter. <strong>Metabotropic receptors</strong> are receptors that can activate a <strong>G-Protein</strong>, which then can then open an ion channel. Metabotropic receptors have a much slower response rate than ionotropic receptors. Studying receptors is quite an active area of research, as it was only recently that we learned that there is a large variety of receptors that can change synaptic behavior.</p>
+
+<p><strong>Ligands</strong> are objects that bind to receptors to activate or block ion channels.</p>
+<ul>
+  <li><strong>Endogenous</strong>: Neurotransmitters and Hormones</li>
+  <li><strong>Exogenous</strong>: Drugs and toxins from outside the body</li>
+  <li><strong>Agonist</strong>: Ligand that binds to receptors and opens an ion channel</li>
+  <li><strong>Antagonist</strong>: Ligand that bins to receptors and blocks the opening of a channel
+    <ul>
+      <li><strong>Competitive</strong>: Ligand that prevents the opening of a channel by blocking an agonist’s binding site</li>
+      <li><strong>Non-competitive</strong>: Ligand that binds to a different binding site, but still prevents the opening of a channel</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="recap">Recap</h3>
+<ol>
+  <li>Diffusion is when objects move from high concentration to low concentration. When charged particles diffuse, this creates an electrical current.</li>
+  <li>Neurons fire because the diffusion of positively-charged sodium into the cell causes an electrical charge to travel up the axon.</li>
+  <li>Neurons transfer these signals by sending neurotransmitters to each other, which causes neighboring neurons to allow different ions to diffuse at different rates</li>
+  <li>After each firing, neurons enter a refractory period where they can’t fire for a short time as they recover</li>
+</ol>
+
+
+  
+
+  
+    </div>
+  </section>
+
+
+      </article>
+
+      <!-- Footer -->
+<footer id="footer">
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <div id="mc_embed_signup">
+  <form action="https://gmail.us20.list-manage.com/subscribe/post?u=b54b6a3810ccd691597374c16&amp;id=57276a364a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <input type="email" style="background-color: rgba(255, 255, 255, 0.3); border: None;" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b54b6a3810ccd691597374c16_57276a364a" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" style="background-color: transparent;" value="Subscribe To Email List" name="subscribe" id="mc-embedded-subscribe" class="button fit special"></div>
+    </div>
+  </form>
+  </div>
+  <!--End mc_embed_signup -->
+  <ul class="icons">
+    <li><a target="_blank" href="https://github.com/adam1brownell" class="icon fa-github"
+           ><span class="label">github</span></a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/in/adam-brownell-581a89b5/" class="icon fa-linkedin-square"
+           ><span class="label">linkedin-square</span></a></li>
+    <li><a target="_blank" href="https://www.facebook.com/adam.brownell.3" class="icon fa-facebook-official"
+           ><span class="label">facebook-official</span></a></li>
+    <li><a target="_blank" href="/contact/" class="icon fa-envelope"
+           ><span class="label">E-mail</span></a></li>
+  </ul>
+  <ul class="copyright">
+    <li>&copy; 2018, 2019 Adam Brownell</li>
+    <li><a href="/blog//credits/">Credits</a></li>
+  </ul>
+</footer>
+
+
+      <!-- Scripts -->
+<script src="/blog//js/jquery.min.js"></script>
+<script src="/blog//js/jquery.scrollex.min.js"></script>
+<script src="/blog//js/jquery.scrolly.min.js"></script>
+<script src="/blog//js/skel.min.js"></script>
+<script src="/blog//js/util.js"></script>
+<!--[if lte IE 8]><script src="/blog//js/ie/respond.min.js"></script><![endif]-->
+<script src="/blog//js/main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+
+    </div>
+
+  </body>
+
+</html>

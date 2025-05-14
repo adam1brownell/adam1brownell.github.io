@@ -4,10 +4,16 @@ Personal Website
 Set up local dev:
 
 ````
-gem install bundler
-bundle install
-bundle exec jekyll serve
+cd blog/
+npm run dev
+local host
 
-http://127.0.0.1:4000/
+```
+
+Build before deploy
+
+```
+cd blog
+npm run build
 ```
 
