@@ -1,0 +1,22 @@
+---
+import { getStaticPaths, getEntryBySlug, getCollection, render } from 'astro:content';
+import BlogPost from '../layouts/BlogPost.astro';
+
+// Tell Astro which slugs to build:
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+  }));
+}
+
+// Fetch the entry by slug:
+const entry = await getEntryBySlug('blog', Astro.params.slug);
+if (!entry) throw new Error(`Post not found: ${Astro.params.slug}`);
+
+// Render the Markdown/MDX to a `<Content />` component:
+const { Content } = await render(entry);
+---
+<BlogPost {...entry.data}>
+  <Content />
+</BlogPost>
