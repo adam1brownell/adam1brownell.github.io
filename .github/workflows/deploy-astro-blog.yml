@@ -27,11 +27,9 @@ jobs:
         run: |
           cd astro-blog
           npm ci
-          npm run build
-          # Clean out any old Jekyll output
           rm -rf ../blog
-          # Move the fresh Astro build into /blog
-          mv dist ../blog
+          npm run build
+
 
       - name: Commit built files
         run: |
