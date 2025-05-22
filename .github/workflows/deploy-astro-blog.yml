@@ -8,6 +8,7 @@ on:
     paths:
       - 'astro-blog/**'
       - '.github/workflows/deploy-astro-blog.yml'
+  workflow_dispatch:
 
 jobs:
   build:
