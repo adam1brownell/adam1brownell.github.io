@@ -14,7 +14,7 @@ local host
 Build before deploy
 
 ```
-cd atro-blog
+cd astro-blog
 npm run build
 npm run preview
 local host

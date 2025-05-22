@@ -1,6 +1,5 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
+// src/components/BaseHead.astro
 import '../styles/global.css';
 import { SITE_TITLE } from '../consts';
 
@@ -10,34 +9,19 @@ interface Props {
   image?: string;
 }
 
-// Default image path relative to site base
-const defaultImage = Astro.base + 'blog-placeholder-1.jpg';
-
+const defaultImage = `${Astro.base}blog-placeholder-1.jpg`;
 const { title, description, image = defaultImage } = Astro.props;
-
-// Construct full URLs
-const path = Astro.url.pathname;
-const canonicalURL = new URL(path, Astro.site).toString();
-const pageURL = canonicalURL;
-const feedURL = new URL(Astro.base + 'rss.xml', Astro.site).toString();
-const imageURL = new URL(image, Astro.site).toString();
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const pageURL      = canonicalURL;
+const feedURL      = new URL(`${Astro.base}rss.xml`, Astro.site).toString();
+const imageURL     = new URL(image, Astro.site).toString();
 ---
 
-<!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-<!-- Favicons & manifest -->
-<link rel="icon" type="image/svg+xml" href={Astro.base + 'favicon.svg'} />
-<link rel="sitemap" href={Astro.base + 'sitemap-index.xml'} />
-
-<link
-  rel="alternate"
-  type="application/rss+xml"
-  title={SITE_TITLE}
-  href={feedURL}
-/>
-<meta name="generator" content={Astro.generator} />
+<link rel="icon" href={`${Astro.base}favicon.svg`} />
+<link rel="stylesheet" href={`${Astro.base}styles/global.css`} />
+<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={feedURL} />
 
 <!-- Font preloads -->
 <link
@@ -55,24 +39,19 @@ const imageURL = new URL(image, Astro.site).toString();
   crossorigin="anonymous"
 />
 
-<!-- Canonical URL -->
-<link rel="canonical" href={canonicalURL} />
-
-<!-- Primary Meta Tags -->
+<link rel="canonical" href={pageURL} />
 <title>{title}</title>
-<meta name="title" content={title} />
 <meta name="description" content={description} />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content={pageURL} />
-<meta property="og:title" content={title} />
+<!-- Open Graph -->
+<meta property="og:url"        content={pageURL} />
+<meta property="og:title"      content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={imageURL} />
+<meta property="og:image"      content={imageURL} />
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:url" content={pageURL} />
-<meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={imageURL} />
+<meta name="twitter:card"       content="summary_large_image" />
+<meta property="twitter:url"    content={pageURL} />
+<meta property="twitter:title"  content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image"  content={imageURL} />
