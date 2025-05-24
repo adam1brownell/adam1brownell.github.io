@@ -1,0 +1,48 @@
+.hero {
+    height: 100vh;
+    background-image: url('/banner_griff.jpg'); /* or whatever */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hero-text {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 12px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 0.5rem 0;
+    display: inline-block;
+    margin: 0 auto 1rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  }
+  
+  .hero-text h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin: 0.5rem 0;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  }
+  
