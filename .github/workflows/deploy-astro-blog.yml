@@ -2,7 +2,7 @@ name: Deploy Astro Blog
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
 
 permissions:
   contents: read
