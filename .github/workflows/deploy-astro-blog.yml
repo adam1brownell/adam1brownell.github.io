@@ -37,8 +37,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: dummy
-          path: ./nonexistent-file.txt
-          if-no-files-found: ignore
+          path: dummy.txt
+        continue-on-error: true
 
   deploy:
     needs: build
