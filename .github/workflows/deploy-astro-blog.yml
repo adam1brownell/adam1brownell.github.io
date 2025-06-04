@@ -32,7 +32,7 @@ jobs:
         run: npm run build
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
@@ -44,12 +44,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Preload Upload Artifact v3 (GitHub Pages Bug Workaround)
-        uses: actions/upload-artifact@v3
-        with:
-          name: noop
-          path: .github/empty.txt
-
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v3
