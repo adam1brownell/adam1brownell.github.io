@@ -46,8 +46,10 @@ jobs:
         run: npm ci
         working-directory: ${{ env.BUILD_PATH }}
 
-      - name: Clean build cache
-        run: rm -rf dist .astro
+      - name: Clean previous builds
+        run: |
+          rm -rf dist
+          rm -rf .astro
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Astro
