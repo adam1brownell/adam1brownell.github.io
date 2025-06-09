@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "dev:root": "astro dev --base /",
     "build": "astro build",
     "deploy": "astro build && gh-pages -d dist",
     "preview": "astro preview",

@@ -9,14 +9,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <link rel="stylesheet" href="/myblog/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" is:inline></script>
-    <script src="/myblog/js/skel.min.js" is:inline></script>
-    <script src="/myblog/js/jquery.scrollex.min.js" is:inline></script>
-    <script src="/myblog/js/jquery.scrolly.min.js" is:inline></script>
-    <script src="/myblog/js/jquery.placeholder.min.js" is:inline></script>
-    <script src="/myblog/js/jquery.panel.min.js" is:inline></script>
-    <script src="/myblog/js/jquery.dropotron.min.js" is:inline></script>
+    <script src="/js/skel.min.js" is:inline></script>
+    <script src="/js/jquery.scrollex.min.js" is:inline></script>
+    <script src="/js/jquery.scrolly.min.js" is:inline></script>
     <script is:script>
       (function($) {
         $(function() {
@@ -31,7 +28,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
           $window.on('load', function() {
             setTimeout(function() {
               $body.removeClass('is-loading');
-			  $('header').addClass('visible');
+              $('header').addClass('visible');
               console.log('Page fully loaded, removed is-loading class');
             }, 100);
           });
@@ -53,67 +50,63 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       })(jQuery);
     </script>
     <style>
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
 
-  html, body, main {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    max-width: 100vw;
-  }
+      html, body, main {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        max-width: 100vw;
+      }
 
-  #banner.parallax-section {
-    background-image: url('/myblog/images/banner_griff.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    overflow: hidden;
-  }
+      #banner.parallax-section {
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+      }
 
-  .inner {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 0;
-  }
-</style>
-
+      .inner {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body class="landing">
-
     <main>
       <section id="banner" class="parallax-section">
         <div class="inner">
           <h2>Adam Brownell</h2>
           <p>data nerd.</p>
           <p>Plus some machine-learning & story-telling.</p>
-		  <ul class="actions">
-			<li><a href="/myblog/" class="button fit special">Blog</a></li>
-			<li><a href="/projects/" class="button fit special">Projects</a></li>
-		</ul>
+          <ul class="actions">
+            <li><a href="/myblog/" class="button fit special">Blog</a></li>
+            <li><a href="/projects/" class="button fit special">Projects</a></li>
+          </ul>
         </div>
         <a href="#projects" class="more scrolly"></a>
       </section>
-	  <section id="banner" class="parallax-section">
-		<p> contact me: adam1brownell (at) gmail (dot) com</p>
-		<ul class="actions">
-			<li><a href="https://www.linkedin.com/in/adam-brownell-581a89b5/" class="button fit special">Linkedin</a></li>
-		</ul>
-	  </section>
+      <section id="banner" class="parallax-section">
+        <p>contact me: adam1brownell (at) gmail (dot) com</p>
+        <ul class="actions">
+          <li><a href="https://www.linkedin.com/in/adam-brownell-581a89b5/" class="button fit special">Linkedin</a></li>
+        </ul>
+      </section>
     </main>
-
     <Footer />
   </body>
 </html>
