@@ -3628,11 +3628,11 @@
 /* Main */
 
 	#main > header {
-		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		padding: 12em 0 10em 0;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3659,7 +3659,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
-				padding: 10em 0 8em 0 ;
+				padding: 10em 0 8em 0;
 			}
 
 		}
@@ -3667,7 +3667,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#main > header {
-				padding: 8em 3em 6em 3em ;
+				padding: 8em 3em 6em 3em;
 			}
 
 		}
@@ -3675,7 +3675,7 @@
 		@media screen and (max-width: 980px) {
 
 			#main > header {
-				padding: 10em 3em 8em 3em ;
+				padding: 10em 3em 8em 3em;
 			}
 
 		}
@@ -3683,7 +3683,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > header {
-				padding: 5em 3em 3em 3em ;
+				padding: 5em 3em 3em 3em;
 			}
 
 				#main > header h2 {
@@ -3700,7 +3700,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 4em 0;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -3763,7 +3763,7 @@
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 3em 2em 3em ;
+				padding: 4em 3em 2em 3em;
 			}
 
 		}
@@ -3771,7 +3771,7 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 2em 1em 2em;
 			}
 
 		}
@@ -3779,10 +3779,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3800,10 +3800,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner_griff.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;

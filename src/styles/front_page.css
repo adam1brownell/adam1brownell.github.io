@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background-image: url('/banner_griff.jpg'); /* or whatever */
+    background-image: url('/images/banner_griff.jpg'); /* or whatever */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
