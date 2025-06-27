@@ -66,7 +66,7 @@ Like it sounds, the Nervous System is a collection of connected nerves that help
 ### Brain Material
 The brain itself is made up of:
 
-![](images/bneuro/b1_brain_matter.jpg)
+![](/images/bneuro/b1_brain_matter.jpg)
 
 - **Grey matter:** Neuron synapses (connections) and cell bodies found along the “outside” of brain
 - **White matter:** Mylinated (fat-covered) cells found “inside” the brain
@@ -80,7 +80,7 @@ There are also 4 pockets of CSF fluid “within” the brain called **ventricles
 ### Brain Lobes & Cortices
 There are four brain lobes, named for the bones overlying the skull. The names are quite poor and don’t actually reflect their function, but roughly:
 
-![](images/bneuro/b1_lobes.jpg)
+![](/images/bneuro/b1_lobes.jpg)
 
 
 1. **Occipital Lobe:** Back of brain. Home of visual system
@@ -90,7 +90,7 @@ There are four brain lobes, named for the bones overlying the skull. The names a
 
 While the brain lobes are quite popular, they are not the most accurate way to understand brain areas. A better representation can be seen in the sensory cortices:
 
-![](images/bneuro/b1_cort.jpg)
+![](/images/bneuro/b1_cort.jpg)
 
 
 As you can see from the above image, some brain regions have helpful names like Visual Cortex and some are named after scientists who really wanted to be famous like Broca’s Area. We will breakdown these cortices during our Tour of the Nervous System.
@@ -177,7 +177,7 @@ All sensory inputs (except smell) then travel to the **Thalamus**, the post offi
 
 ### Processing: How signals are interpreted
 
-![](images/bneuro/b1_parts.jpg)
+![](/images/bneuro/b1_parts.jpg)
 
 As the above picture shows, there are a lot of brain regions. If you want to memorize all of them, eat your heart out.
 
@@ -228,13 +228,13 @@ Human brains are not as special as we like to think…
 
 What we do win at is the **Encephalization Factor**, which is “_the ratio between actual brain mass and predicted brain mass for an animal of a given size._” (I think it was made up to help human brains win at something…)
 
-![](images/bneuro/b1_meme.jpg)
+![](/images/bneuro/b1_meme.jpg)
 
 Most big differences between species’ brains are due to an individual species adapting to their environment. Animals that rely heavily on sense of smell have much larger/complicated olfactory brain regions, those that rely on hearing have larger hearing brain regions, etc. We rely on our vision quite a lot, so we have a very large visual system. What we also have is a very large critical thinking area of the brain– unmatched in the animal kingdom. Current theories as to why this adaptation occurred (and this is still a hotly debated topic) is because Humans are incredibly social creatures, and socializing is a complicated process that requires a large amount of critical thinking power behind it. This push to be social early in our evolution may explain why our brains are the way they are.
 
 ### Brain Development
 
-![](images/bneuro/b1_develop.png)
+![](/images/bneuro/b1_develop.png)
 
 Humans start off as a **zygote**, or fertilized egg, and then grow into a **blastocyst**, or ball of dividing cells. Blastocysts can be generally broken down into three cell layers and one of these layers, the Ectoderm, will develop into the Brain and nervous system. From this step there are six stages of brain development, each covered below:
 
