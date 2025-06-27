@@ -2,7 +2,7 @@
 title: 'What is a Brain?'
 description: 'Behavioral Neuroscience for people in a hurry, pt.1'
 pubDate: 'Mar 5 2019'
-heroImage: '/images/b1_cover.png
+heroImage: '/images/b1_cover.png'
 ---
 
 > _I typed up my behavioral neuroscience notes from college and tried to make the more entertaining. This is more for housekeeping & testing out my blog hosting software than content but... enjoy!_
