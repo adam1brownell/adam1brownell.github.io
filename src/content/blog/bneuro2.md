@@ -93,7 +93,7 @@ Pharmacology is the attempt to influence biological systems (and their disorders
 
 ## Common Neurotransmitters
 
-![](images/bneuro/b2_transmitter.jpeg)
+![](/images/bneuro/b2_transmitter.jpeg)
 
 **Acetylcholine (ACH)** is integral to the "rest and digest" response in the Parasympathetic Nervous System. Triggers actions such as the slowing of heart rate and increased intestinal/gland activity. Found in the _chologinergic_ pathway of the brain involving the cortex, hippocampus, and cerebellum. An imbalance in ACH levels has been linked to Alzheimer's Disease.
 
