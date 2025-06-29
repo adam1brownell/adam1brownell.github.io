@@ -2,7 +2,7 @@
 title: 'Our Five (7) Senses'
 description: 'Behavioral Neuroscience for people in a hurry, pt.3'
 pubDate: 'Apr 19 2019'
-heroImage: '/banner_bneuro3.jpg'
+heroImage: '/images/banner_bneuro3.jpg'
 ---
 
 > _I typed up my behavioral neuroscience notes from college and tried to make the more entertaining. This is more for housekeeping & testing out my blog hosting software than content but... enjoy!_
