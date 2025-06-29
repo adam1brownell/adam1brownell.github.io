@@ -96,7 +96,7 @@ Hearing and balance were grouped together because both senses are found in the i
 
 ### Taste
 
-![](images/bneuro/b3_taste.jpg)
+![](/images/bneuro/b3_taste.jpg)
 
 **Gustation** is the fancy word for taste. Taste is typically broken down into 5 **flavors**, each flavor loosely correlating with a specific ion channel opening:
 
