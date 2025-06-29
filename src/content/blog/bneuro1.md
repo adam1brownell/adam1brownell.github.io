@@ -9,20 +9,10 @@ heroImage: '/banner_bneuro1.png'
 
 _tldr at the bottom_
 
-Your Brain on Drugs
-3. Membrane Potential: How Neurons Work
-4. Psychopharmacology: How drugs affect the brain
-
-The Senses
-6. Touch & Pain: How the brain processes physical sensations
-7. The Ear: How Hearing & Balance Work
-8. Gestation & Olfaction: How to Taste & Smell
-9. The Eye: How we see things
-10. Motor System: How we move
-
 Our Mind-Body Connection
 5. Hormones: Brain-Body Communication
 11. Homeostasis: How we keep our internal environment stable
+10. Motor System: How we move
 
 Neural Nights
 12. Sleep
